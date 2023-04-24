@@ -1,0 +1,161 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="img-posters\aprocurafelicidade.jpg" />
+    <None Remove="img-posters\circulodefogo.jpg" />
+    <None Remove="img-posters\corra.jpg" />
+    <None Remove="img-posters\creed3.jpg" />
+    <None Remove="img-posters\friday13th.jpg" />
+    <None Remove="img-posters\gatobotas.jpg" />
+    <None Remove="img-posters\interstelar.png" />
+    <None Remove="img-posters\it.jpg" />
+    <None Remove="img-posters\jogoimitação.jpg" />
+    <None Remove="img-posters\nadanovofront.jpg" />
+    <None Remove="img-posters\shrek.jpg" />
+    <None Remove="img-posters\up.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="img-posters\aprocurafelicidade.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="img-posters\circulodefogo.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="img-posters\corra.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="img-posters\creed3.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="img-posters\friday13th.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="img-posters\gatobotas.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="img-posters\interstelar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="img-posters\it.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="img-posters\jogoimitação.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="img-posters\nadanovofront.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="img-posters\shrek.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="img-posters\up.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="paginas-filmes\AProcuraDaFelicidade.xaml.cs">
+      <DependentUpon>AProcuraDaFelicidade.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="paginas-filmes\CirculoDeFogo.xaml.cs">
+      <DependentUpon>CirculoDeFogo.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="paginas-filmes\corra.xaml.cs">
+      <DependentUpon>Corra.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="paginas-filmes\CreedIII.xaml.cs">
+      <DependentUpon>CreedIII.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="paginas-filmes\Fridat13th.xaml.cs">
+      <DependentUpon>Fridat13th.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="paginas-filmes\GatoDeBotas.xaml.cs">
+      <DependentUpon>GatoDeBotas.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="paginas-filmes\interestelar.xaml.cs">
+      <DependentUpon>Interestelar.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="paginas-filmes\it.xaml.cs">
+      <DependentUpon>It.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="paginas-filmes\NadaDeNovoNoFront.xaml.cs">
+      <DependentUpon>NadaDeNovoNoFront.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="paginas-filmes\OJogoDaImitacao.xaml.cs">
+      <DependentUpon>OJogoDaImitacao.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="paginas-filmes\shrek.xaml.cs">
+      <DependentUpon>Shrek.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="paginas-filmes\up.xaml.cs">
+      <DependentUpon>Up.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="categorias\Aventura.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="categorias\Comedia.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="categorias\Drama.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="categorias\Terror.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="paginas-filmes\AProcuraDaFelicidade.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="paginas-filmes\CirculoDeFogo.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="paginas-filmes\Corra.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="paginas-filmes\CreedIII.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="paginas-filmes\Fridat13th.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="paginas-filmes\GatoDeBotas.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="paginas-filmes\Interestelar.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="paginas-filmes\It.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="paginas-filmes\NadaDeNovoNoFront.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="paginas-filmes\OJogoDaImitacao.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="paginas-filmes\Shrek.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="paginas-filmes\Up.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

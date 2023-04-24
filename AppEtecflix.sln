@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppEtecflix.Android", "AppEtecflix.Android\AppEtecflix.Android.csproj", "{A28D3484-DEA3-4587-B5B4-8F763DC3508D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppEtecflix", "AppEtecflix\AppEtecflix.csproj", "{BA165D3E-3D09-4DEC-B641-CCE590352E59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A28D3484-DEA3-4587-B5B4-8F763DC3508D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A28D3484-DEA3-4587-B5B4-8F763DC3508D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A28D3484-DEA3-4587-B5B4-8F763DC3508D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A28D3484-DEA3-4587-B5B4-8F763DC3508D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A28D3484-DEA3-4587-B5B4-8F763DC3508D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A28D3484-DEA3-4587-B5B4-8F763DC3508D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{BA165D3E-3D09-4DEC-B641-CCE590352E59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA165D3E-3D09-4DEC-B641-CCE590352E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA165D3E-3D09-4DEC-B641-CCE590352E59}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BA165D3E-3D09-4DEC-B641-CCE590352E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA165D3E-3D09-4DEC-B641-CCE590352E59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA165D3E-3D09-4DEC-B641-CCE590352E59}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92E5ED84-75F5-4AF3-BD26-B37E69D1FD28}
+	EndGlobalSection
+EndGlobal

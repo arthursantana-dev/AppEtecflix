@@ -16,5 +16,20 @@ namespace AppEtecflix.categorias
         {
             InitializeComponent();
         }
+
+        private void btnGatoDeBotas_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnShrek_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnUp_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }

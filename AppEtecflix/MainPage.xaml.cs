@@ -29,5 +29,20 @@ namespace AppEtecflix
                 DisplayAlert("Ops", ex.Message, "OK");
             }
         }
+
+        private void Button_ComediaClicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button_DramaClicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button_TerrorClicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }

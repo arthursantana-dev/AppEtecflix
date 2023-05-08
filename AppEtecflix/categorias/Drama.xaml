@@ -2,11 +2,47 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppEtecflix.categorias.Drama">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+    
+    <StackLayout Orientation="Vertical">
+
+        <Image x:Name="logo" Style="{StaticResource LogoNaListaDePosters}"/>
+        <Label Text="DRAMA" Style=" {StaticResource LabelTextovermelho}" />
+
+        <ScrollView>
+
+            <Grid Padding="5">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+
+                    <RowDefinition Height="300"/>
+                    <RowDefinition Height="300"/>
+                    <RowDefinition Height="300"/>
+
+                </Grid.RowDefinitions>
+
+                <ImageButton Grid.Row="0" 
+                                Grid.Column="8" 
+                                x:Name="btnAProcuraDaFelicidade" Style=" {StaticResource ButtonPostens} " 
+                                Clicked="btnAProcuraDaFelicidade_Clicked"/>
+
+                <ImageButton Grid.Row="0" Grid.Column="1"
+                            x:Name="btnOJogoDaImitacao"
+                            Style="{StaticResource ButtonPosters}"
+                            Clicked="btnOJogoDaImitacao_Clicked"/>
+
+                <ImageButton Grid.Row="1" Grid.Column="1"
+                            x:Name="btnNadaDeNovoNoFront"
+                            Style="{StaticResource ButtonPosters }"
+                            Clicked="btnNadaDeNovoNoFront_Clicked" />
+
+
+            </Grid>
+        </ScrollView>
+    </StackLayout>
 </ContentPage>

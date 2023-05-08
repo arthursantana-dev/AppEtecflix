@@ -16,5 +16,20 @@ namespace AppEtecflix.categorias
         {
             InitializeComponent();
         }
+
+        private void btnAProcuraDaFelicidade_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnOJogoDaImitacao_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnNadaDeNovoNoFront_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }

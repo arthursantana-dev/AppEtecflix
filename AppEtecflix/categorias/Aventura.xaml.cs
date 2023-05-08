@@ -16,5 +16,21 @@ namespace AppEtecflix.categorias
         {
             InitializeComponent();
         }
+
+        private void btnCirculoDeFogo_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCreedIII_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnInterestelar_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

@@ -28,7 +28,6 @@
         <Button Grid.Row="4" Grid.Column="1" Text="Guerra"/>
         <Button Grid.Row="5" Grid.Column="0" Text="Nacional"/>
         <Button Grid.Row="5" Grid.Column="1" Text="Romance"/>
-        <Button Grid.Row="5" Grid.Column="1" Text="Corrida"/>
 
     </Grid>
 

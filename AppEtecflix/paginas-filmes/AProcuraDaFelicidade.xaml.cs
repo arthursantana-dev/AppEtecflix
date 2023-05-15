@@ -14,7 +14,7 @@ namespace AppEtecflix.paginas_filmes
     {
         public a_procura_da_felicidade()
         {
-            InitializeComponent();
+            //InitializeComponent();
         }
     }
 }

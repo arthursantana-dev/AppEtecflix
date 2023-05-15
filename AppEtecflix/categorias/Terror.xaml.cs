@@ -15,6 +15,15 @@ namespace AppEtecflix.categorias
         public Terror()
         {
             InitializeComponent();
+
+            NavigationPage.SetHasNavigationBar(this, false);
+
+            logo.Source = ImageSource.FromResource("AppEtecFlix.imgs.etecflix.logo.png");
+
+            btnCorra.Source = ImageSource.FromResource("AppEtecFlix.img-posters.corra.jpg");
+            btnFriday13th.Source = ImageSource.FromResource("AppEtecFlix.img-posters.friday13th.jpg");
+            btnIt.Source = ImageSource.FromResource("AppEtecFlix.img-posters.it.jpg");
+
         }
 
         private void btnCorra_Clicked(object sender, EventArgs e)

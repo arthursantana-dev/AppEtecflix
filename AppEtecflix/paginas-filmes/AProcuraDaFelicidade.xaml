@@ -1,12 +1,104 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppEtecflix.paginas_filmes.a_procura_da_felicidade">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+            Title="APP ETECFLIX CAPITA MARVEL"
+            BackgroundColor="#2f2f30">
+
+    <StackLayout Orientation="Vertical">
+
+        <Image 
+            Style="{StaticResource LogoNoFilme }"
+            />
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="300"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <WebView Grid.Row="0" 
+                     Grid.Column="0" 
+                     Grid.ColumnSpan="2" 
+                     VerticalOptions="FillAndExpand"
+                     BackgroundColor="#2f2f30"/>
+
+
+
+            <StackLayout Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
+
+                <ScrollView>
+
+                    <Grid>
+
+                        <Grid.ColumnDefinitions>
+
+                            <ColumnDefinition Width="*"/>
+
+                            <ColumnDefinition Width="*"/>
+
+                        </Grid.ColumnDefinitions>
+
+                        <Grid.RowDefinitions>
+
+                            <RowDefinition Height="300"/>
+
+                            <RowDefinition Height="*"/>
+
+                        </Grid.RowDefinitions>
+
+                        <Image Grid.Row="0" 
+                               Grid.Column="0" 
+                               Aspect="AspectFill"/>
+
+                        <StackLayout 
+                            Grid.Row="8" 
+                            Grid.Column="1" 
+                            VerticalOptions="Center">
+
+                            <Label Text="TÍTULO"
+                                    Style="{StaticResource LabelTextoVermelho}" />
+                            <Label Text="Capită Marvel" 
+                                   Style="{StaticResource LabelTextoBranco}"/>
+
+                            <Label Text="ANO DE LANÇAMENTO" 
+                                   Style="{StaticResource LabelTextoVermelho}"/>
+
+                            <Label Text=" 7 de março de 2019" 
+                                   Style="{StaticResource LabelTextoBranco}" />
+
+                            <Label Text="DIREÇÃO" 
+                                   Style="{StaticResource LabelTextoVermelho}"/>
+
+                            <Label Text="Anna Boden, Ryan Fleck" 
+                                   Style="{StaticResource LabelTextoBranco}"/>
+
+                        </StackLayout>
+
+                        <StackLayout Grid.Row="1" 
+                                      Grid.Column="8" 
+                                      Grid.ColumnSpan="2" 
+                                      Padding="10">
+
+                            <Label Text="SINOPSE" 
+                                   Style="{StaticResource LabelTextoVermelho}"/>
+
+                            <Label Style="{StaticResource LabelTextoBranco}"/>
+
+                        </StackLayout>
+
+                    </Grid>
+
+                </ScrollView>
+
+            </StackLayout>
+        </Grid>
+    </StackLayout>
+
 </ContentPage>
+                    
+        
+            

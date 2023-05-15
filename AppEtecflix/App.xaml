@@ -4,9 +4,9 @@
              x:Class="AppEtecflix.App">
     <Application.Resources>
 
-        <Style x:Key="=Titulo" TargetType="Label">
+        <Style x:Key="Titulo" TargetType="Label">
 
-            <Setter Property="TextColor" value="#e80000"/>
+            <Setter Property="TextColor" Value="#e80000"/>
             <Setter Property="FontSize" Value="40"/>
 
         </Style>
@@ -33,8 +33,8 @@
 
         </Style>
 
-        <Style x:Key="LabelTextovermelho" TargetType="Label">
-            <Setter Property="TextColor" Value="e80000"/>
+        <Style x:Key="LabelTextoVermelho" TargetType="Label">
+            <Setter Property="TextColor" Value="#e80000"/>
 
             <Setter Property="FontSize" Value="16"/>
 

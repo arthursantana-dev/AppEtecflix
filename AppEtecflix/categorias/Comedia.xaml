@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppEtecflix.categorias.Comedia">
+             x:Class="AppEtecflix.categorias.Comedia"
+             BackgroundColor="#2f2f30">
     <StackLayout Orientation="Vertical">
 
         <Image x:Name="logo" Style="{StaticResource LogoNaListaDePosters}"/>
-        <Label Text="COMÉDIA" Style=" {StaticResource LabelTextovermelho}" />
+        <Label Text="COMÉDIA" Style=" {StaticResource LabelTextoVermelho}" />
 
         <ScrollView>
 
@@ -26,8 +27,8 @@
                 </Grid.RowDefinitions>
 
                 <ImageButton Grid.Row="0" 
-                                Grid.Column="8" 
-                                x:Name="btnGatoDeBotas" Style=" {StaticResource ButtonPostens} " 
+                                Grid.Column="0" 
+                                x:Name="btnGatoDeBotas" Style=" {StaticResource ButtonPosters} " 
                                 Clicked="btnGatoDeBotas_Clicked"/>
 
                 <ImageButton Grid.Row="0" Grid.Column="1"

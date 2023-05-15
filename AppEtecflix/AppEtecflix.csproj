@@ -23,6 +23,7 @@
     <None Remove="img-posters\nadanovofront.jpg" />
     <None Remove="img-posters\shrek.jpg" />
     <None Remove="img-posters\up.jpg" />
+    <None Remove="imgs\logo.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -60,6 +61,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="img-posters\up.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="imgs\logo.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>

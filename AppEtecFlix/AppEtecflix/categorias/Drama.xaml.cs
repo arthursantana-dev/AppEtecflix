@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -21,9 +22,9 @@ namespace AppEtecflix.categorias
 
             logo.Source = ImageSource.FromResource("AppEtecFlix.imgs.etecflix.logo.png");
 
-            btnAProcuraDaFelicidade.Source = ImageSource.FromResource("AppEtecFlix.img-posters.aprocuradafelicidade.jpg");
-            btnNadaDeNovoNoFront.Source = ImageSource.FromResource("AppEtecFlix.img-posters.nadanovofront.jpg");
-            btnOJogoDaImitacao.Source = ImageSource.FromResource("AppEtecFlix.img-posters.jogoimitacao.jpg");
+            btnAProcuraDaFelicidade.Source = ImageSource.FromResource("AppEtecflix.imgposters.aprocurafelicidade.jpg");
+            btnNadaDeNovoNoFront.Source = ImageSource.FromResource("AppEtecflix.imgposters.nadanovofront.jpg");
+            btnOJogoDaImitacao.Source = ImageSource.FromResource("AppEtecflix.imgposters.jogoimitação.jpg");
 
         }
 

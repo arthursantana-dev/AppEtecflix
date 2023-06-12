@@ -19,11 +19,11 @@ namespace AppEtecflix.categorias
 
             NavigationPage.SetHasNavigationBar(this, false);
 
-            logo.Source = ImageSource.FromResource("AppEtecFlix.imgs.etecflix.logo.png");
+            logo.Source = ImageSource.FromResource("AppEtecflix.imgs.etecflix.logo.png");
 
-            btnGatoDeBotas.Source = ImageSource.FromResource("AppEtecflix.img-posters.gatobotas.jpg");
-            btnShrek.Source = ImageSource.FromResource("AppEtecFlix.img-posters.shrek.jpg");
-            btnUp.Source = ImageSource.FromResource("AppEtecFlix.img-posters.up.jpg");
+            btnGatoDeBotas.Source = ImageSource.FromResource("AppEtecflix.imgposters.gatobotas.jpg");
+            btnShrek.Source = ImageSource.FromResource("AppEtecflix.imgposters.shrek.jpg");
+            btnUp.Source = ImageSource.FromResource("AppEtecflix.imgposters.up.jpg");
 
         }
 

@@ -21,9 +21,9 @@ namespace AppEtecflix.categorias
 
             logo.Source = ImageSource.FromResource("AppEtecflix.imgs.etecflix.logo.png");
 
-            btnCirculoDeFogo.Source = ImageSource.FromResource("AppEtecflix.img-posters.circulodefogo.jpg");
-            btnCreedIII.Source = ImageSource.FromResource("AppEtecflix.img-posters.creed3.jpg");
-            btnInterestelar.Source = ImageSource.FromResource("AppEtecflix.img-posters.interestelar.jpg");
+            btnCirculoDeFogo.Source = ImageSource.FromResource("AppEtecflix.imgposters.circulodefogo.jpg");
+            btnCreedIII.Source = ImageSource.FromResource("AppEtecflix.imgposters.creed3.jpg");
+            btnInterestelar.Source = ImageSource.FromResource("AppEtecflix.imgposters.interstelar.png");
 
 
         }

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppEtecflix.paginas_filmes.circulo_de_fogo"
+             BackgroundColor="#2f2f30">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <Image Grid.Row="0" HeightRequest="150" x:Name="logo" Style="{StaticResource LogoNaListaDePosters}" />
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="300" />
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+            </Grid>
+
+            <WebView Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" 
+                     x:Name="visualizador"
+                     VerticalOptions="FillAndExpand"
+                     Source="https://www.youtube.com/embed/R7J3RJcxv58?controls=0"
+                     BackgroundColor="#2f2f30"/>
+
+            <StackLayout Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
+                <ScrollView>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="300" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+
+
+
+                        <Image x:Name="poster" Grid.Row="0" Grid.Column="0" Aspect="AspectFill" />
+
+                        <StackLayout Grid.Row="0" Grid.Column="1" VerticalOptions="Center">
+                            <Label Text="TITULO" Style="{StaticResource LabelTextoVermelho}"/>
+                            <Label Text="Círculo de Fogo" Style="{StaticResource LabelTextoBranco}"/>
+                            <Label Text="ANO DE LANÇAMENTO" Style="{StaticResource LabelTextoVermelho}"/>
+                            <Label Text="9 de agosto de 2013" Style="{StaticResource LabelTextoBranco}"/>
+                            <Label Text="Direção" Style="{StaticResource LabelTextoVermelho}"/>
+                            <Label Text="Gabriele Muccino" Style="{StaticResource LabelTextoBranco}"/>
+                        </StackLayout>
+
+                        <StackLayout Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Padding="10">
+                            <Label Text="Sinopse" Style="{StaticResource LabelTextoVermelho}"/>
+                            <Label x:Name="sinopse" Style="{StaticResource LabelTextoBranco}"
+                                   Text="Criaturas monstruosas conhecidas como Kaiju começam a emergir do mar. Para combatê-los, a humanidade desenvolve uma série de robôs gigantescos, os Jaegers. Cada um é controlado por duas pessoas por meio de uma conexão neural. Entretanto, mesmo os Jaegers se mostram insuficientes para derrotar os Kaiju. Diante deste cenário, a última esperança é um velho robô, que passa a ser comandado por um antigo piloto e uma pessoa em treinamento."/>
+                        </StackLayout>
+
+                    </Grid>
+                </ScrollView>
+            </StackLayout>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
+
+            

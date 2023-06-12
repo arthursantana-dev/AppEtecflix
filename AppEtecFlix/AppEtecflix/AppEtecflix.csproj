@@ -11,56 +11,56 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="img-posters\aprocurafelicidade.jpg" />
-    <None Remove="img-posters\circulodefogo.jpg" />
-    <None Remove="img-posters\corra.jpg" />
-    <None Remove="img-posters\creed3.jpg" />
-    <None Remove="img-posters\friday13th.jpg" />
-    <None Remove="img-posters\gatobotas.jpg" />
-    <None Remove="img-posters\interstelar.png" />
-    <None Remove="img-posters\it.jpg" />
-    <None Remove="img-posters\jogoimitação.jpg" />
-    <None Remove="img-posters\nadanovofront.jpg" />
-    <None Remove="img-posters\shrek.jpg" />
-    <None Remove="img-posters\up.jpg" />
+    <None Remove="imgposters\aprocurafelicidade.jpg" />
+    <None Remove="imgposters\circulodefogo.jpg" />
+    <None Remove="imgposters\corra.jpg" />
+    <None Remove="imgposters\creed3.jpg" />
+    <None Remove="imgposters\friday13th.jpg" />
+    <None Remove="imgposters\gatobotas.jpg" />
+    <None Remove="imgposters\interstelar.png" />
+    <None Remove="imgposters\it.jpg" />
+    <None Remove="imgposters\jogoimitação.jpg" />
+    <None Remove="imgposters\nadanovofront.jpg" />
+    <None Remove="imgposters\shrek.jpg" />
+    <None Remove="imgposters\up.jpg" />
     <None Remove="imgs\logo.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="img-posters\aprocurafelicidade.jpg">
+    <EmbeddedResource Include="imgposters\aprocurafelicidade.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="img-posters\circulodefogo.jpg">
+    <EmbeddedResource Include="imgposters\circulodefogo.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="img-posters\corra.jpg">
+    <EmbeddedResource Include="imgposters\corra.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="img-posters\creed3.jpg">
+    <EmbeddedResource Include="imgposters\creed3.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="img-posters\friday13th.jpg">
+    <EmbeddedResource Include="imgposters\friday13th.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="img-posters\gatobotas.jpg">
+    <EmbeddedResource Include="imgposters\gatobotas.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="img-posters\interstelar.png">
+    <EmbeddedResource Include="imgposters\interstelar.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="img-posters\it.jpg">
+    <EmbeddedResource Include="imgposters\it.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="img-posters\jogoimitação.jpg">
+    <EmbeddedResource Include="imgposters\jogoimitação.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="img-posters\nadanovofront.jpg">
+    <EmbeddedResource Include="imgposters\nadanovofront.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="img-posters\shrek.jpg">
+    <EmbeddedResource Include="imgposters\shrek.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="img-posters\up.jpg">
+    <EmbeddedResource Include="imgposters\up.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="imgs\logo.png">
@@ -86,7 +86,7 @@
     <Compile Update="paginas-filmes\CreedIII.xaml.cs">
       <DependentUpon>CreedIII.xaml</DependentUpon>
     </Compile>
-    <Compile Update="paginas-filmes\Fridat13th.xaml.cs">
+    <Compile Update="paginas-filmes\Friday13th.xaml.cs">
       <DependentUpon>Fridat13th.xaml</DependentUpon>
     </Compile>
     <Compile Update="paginas-filmes\GatoDeBotas.xaml.cs">
@@ -137,7 +137,7 @@
     <EmbeddedResource Update="paginas-filmes\CreedIII.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="paginas-filmes\Fridat13th.xaml">
+    <EmbeddedResource Update="paginas-filmes\Friday13th.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="paginas-filmes\GatoDeBotas.xaml">

@@ -55,7 +55,7 @@ namespace AppEtecflix.categorias
         {
             try
             {
-                await Navigation.PushAsync(new nada_de_novo_no_front());
+                await Navigation.PushAsync(new nadadenovonofront());
             } catch (Exception ex)
             {
                 await DisplayAlert("Ocorreu um erro... ", ex.Message, "Ok");

@@ -11,9 +11,9 @@ using Xamarin.Forms.Xaml;
 namespace AppEtecflix.paginas_filmes
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class a_procura_da_felicidade : ContentPage
+    public partial class it : ContentPage
     {
-        public a_procura_da_felicidade()
+        public it()
         {
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
